@@ -1,8 +1,9 @@
 {
   "extends": [
-    ":automergeAll",
     "config:js-lib",
     "config:semverAllMonthly",
+    ":automergeAll",
+    ":maintainLockFilesMonthly",
     ":assignAndReview(umidbekk)"
   ],
   "postUpdateOptions": ["npmDedupe"]
