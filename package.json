@@ -1,6 +1,6 @@
 {
   "name": "@umidbekk/configs",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Personal configs of everything",
   "homepage": "https://github.com/umidbekk/configs#readme",
   "bugs": {
@@ -12,9 +12,14 @@
   },
   "license": "MIT",
   "author": "Umidbek Karimov",
+  "files": [
+    "tsconfig.json"
+  ],
   "scripts": {
     "lint": "prettier -wcu .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prerelease": "npm i && npm run lint",
+    "release": "np --no-2fa --no-tests"
   },
   "lint-staged": {
     "*": "prettier -wu"
@@ -22,11 +27,15 @@
   "devDependencies": {
     "husky": "7.0.2",
     "lint-staged": "11.2.0",
+    "np": "7.5.0",
     "prettier": "2.4.1",
     "prettier-plugin-packagejson": "2.2.13"
   },
   "engines": {
     "node": ">=12",
     "npm": ">=7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
