@@ -20,7 +20,7 @@
     "*": "prettier -wu"
   },
   "devDependencies": {
-    "husky": "7.0.0",
+    "husky": "7.0.2",
     "lint-staged": "11.2.0",
     "prettier": "2.4.1",
     "prettier-plugin-packagejson": "2.2.13"
