@@ -1,7 +1,6 @@
 {
   "extends": [
     ":automergeAll",
-    ":dependencyDashboard",
     "config:js-lib",
     "config:semverAllMonthly",
     "npm:unpublishSafe",
