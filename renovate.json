@@ -3,7 +3,6 @@
     ":automergeAll",
     "config:js-lib",
     "config:semverAllMonthly",
-    "npm:unpublishSafe",
     ":assignAndReview(umidbekk)"
   ],
   "postUpdateOptions": ["npmDedupe"]
