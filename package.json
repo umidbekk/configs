@@ -16,7 +16,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "lint": "prettier -wcu .",
+    "lint": "prettier -wc .",
     "prepare": "husky install",
     "prerelease": "npm i && npm run lint",
     "release": "np --no-2fa --no-tests"

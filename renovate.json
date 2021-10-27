@@ -1,7 +1,6 @@
 {
   "extends": [
     "config:js-lib",
-    "group:all",
     "schedule:monthly",
     ":automergeAll",
     ":maintainLockFilesMonthly",
