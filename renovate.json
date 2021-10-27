@@ -10,6 +10,14 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "all patch dependencies",
+      "groupSlug": "all-patch-dependencies"
+    },
+
+    {
+      "matchPackagePatterns": ["*"],
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major dev dependencies",
