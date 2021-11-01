@@ -6,20 +6,5 @@
     ":maintainLockFilesMonthly",
     ":assignAndReview(umidbekk)"
   ],
-  "postUpdateOptions": ["npmDedupe"],
-  "packageRules": [
-    {
-      "matchDepTypes": ["dependencies"],
-      "matchUpdateTypes": ["patch"],
-      "groupName": "all patch dependencies",
-      "groupSlug": "all-patch-dependencies"
-    },
-
-    {
-      "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dev dependencies",
-      "groupSlug": "all-non-major-dev-dependencies"
-    }
-  ]
+  "postUpdateOptions": ["npmDedupe"]
 }
