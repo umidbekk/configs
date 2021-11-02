@@ -3,7 +3,7 @@
     "config:js-lib",
     "schedule:monthly",
     ":automergeAll",
-    ":maintainLockFilesMonthly",
+    ":maintainLockFilesWeekly",
     ":assignAndReview(umidbekk)"
   ],
   "postUpdateOptions": ["npmDedupe"]
