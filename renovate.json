@@ -6,5 +6,6 @@
     ":maintainLockFilesWeekly",
     ":assignee(umidbekk)"
   ],
+  "prConcurrentLimit": 1,
   "postUpdateOptions": ["npmDedupe"]
 }
