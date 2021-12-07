@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "husky": "7.0.4",
-    "lint-staged": "11.2.6",
+    "lint-staged": "12.1.2",
     "np": "7.6.0",
     "prettier": "2.4.1",
     "prettier-plugin-packagejson": "2.2.15"
