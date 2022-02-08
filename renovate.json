@@ -3,7 +3,7 @@
     "config:js-lib",
     "schedule:monthly",
     ":automergeAll",
-    ":maintainLockFilesWeekly",
+    ":maintainLockFilesMonthly",
     ":assignee(umidbekk)"
   ],
   "prConcurrentLimit": 1,
