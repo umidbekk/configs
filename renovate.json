@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "config:js-lib",
-    "schedule:monthly",
-    ":assignee(umidbekk)"
-  ],
+  "extends": ["config:js-lib", "schedule:monthly", ":assignee(umidbekk)"],
   "prConcurrentLimit": 1,
   "postUpdateOptions": ["npmDedupe"]
 }
